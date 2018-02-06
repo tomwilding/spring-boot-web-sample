@@ -1,0 +1,13 @@
+leanmix:
+  prop:
+      key1: value1
+      key2: value2
+
+#Server settings
+server:
+  port: 8080
+  contextPath:
+  compression:
+    enabled: true
+    min-response-size: 1024
+    mime-types: text/html,text/xml,text/plain,text/css,text/javascript,application/javascript,application/octet-stream
