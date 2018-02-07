@@ -12,6 +12,8 @@ import java.util.Map;
 @Component
 public class Property {
 
+    private Map prop;
+
     public Map getProp() {
         return prop;
     }
@@ -19,8 +21,6 @@ public class Property {
     public void setProp(Map prop) {
         this.prop = prop;
     }
-
-    private Map prop;
 
 
 }
